@@ -32,6 +32,7 @@ private ValidationServices vs = new ValidationServices();
 		request.setAttribute("password", request.getParameter("password"));
 		request.getRequestDispatcher("/WEB-INF/Views/welcome.jsp").forward(request, response);
          }else {
+        	 request.setAttribute("Error", "Please enter valid details");
         	 request.getRequestDispatcher("/WEB-INF/Views/login.jsp").forward(request, response);
 		}
         	 

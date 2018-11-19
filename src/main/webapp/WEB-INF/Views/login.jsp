@@ -15,7 +15,7 @@ Email <input type = "text" name = "email"/>
 Password <input type = "text" name = "password"/> <input type = "submit" value="Login"/>
 </form>
 
-
+<p><font color="red"> ${Error}</font></p>
 
 
 <br>
